@@ -47,7 +47,7 @@ The microservice responds with a JSON object, containing either an IMDb link or 
 ### **Error Response (Movie Not Found)**
 ```json
 {
-    "error": "No IMDb link found for the given movie name and year."
+    "error": "page not found for the given movie name and year."
 }
 ```
 
