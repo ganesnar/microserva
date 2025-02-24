@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 
 #API key wasnt working, so i parse from wikipedia
 def wikipedia(movie_name, year):
-    #"""Fetch the IMDb link from Wikipedia for a specific movie and year."""
     search_url = f"https://en.wikipedia.org/wiki/{movie_name.replace(' ', '_')}"
 
     response = requests.get(search_url)
@@ -26,7 +25,6 @@ def wikipedia(movie_name, year):
     return {"imdb_link": imdb_link} if imdb_link else {"error": "No IMDb link found for the given movie name and year."}
 
 def load_movies(filepath):
-    #"""Loads movie data from a CSV file."""
     movies = []
     with open(filepath, mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
