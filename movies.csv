@@ -1,0 +1,8 @@
+movie_name,year,watched_status,content_rating,imdb_rating,personal_rating,imdb_link,series_name,season,episode,is_series,plot
+Inception,2010.0,True,PG-13,8.8,9.0,,,,,False,A thief enters dreams to steal secrets.
+Breaking Bad,,True,TV-MA,9.5,9.8,,Breaking Bad,2.0,5.0,True,Walter White expands his empire.
+Finding Nemo,2003.0,False,G,8.2,7.5,,,,,False,A clownfish searches for his son.
+Game of Thrones,,True,TV-MA,9.3,9.2,,Game of Thrones,6.0,9.0,True,Winter is coming.
+The Dark Knight,2008.0,True,PG-13,9.0,8.8,,,,,False,Batman faces Joker in Gotham.
+,,2008.0,True,PG-13,9.0,8.8,,,,,False,Batman faces Joker in Gotham.
+sljfiowjfof,2008.0,True,PG-13,9.0,8.8,,,,,False,Batman faces Joker in Gotham.
