@@ -52,6 +52,9 @@ The microservice responds with a JSON object, containing either an IMDb link or 
 ```
 
 ---
+## UML
+<img width="662" alt="Screenshot 2025-02-24 at 12 00 09 PM" src="https://github.com/user-attachments/assets/7b3d6227-0461-4c3b-8072-8f122fffa01e" />
+
 
 
 ---
