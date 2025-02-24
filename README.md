@@ -57,7 +57,7 @@ The microservice responds with a JSON object, containing either an IMDb link or 
 ---
 
 ## Dependencies
-Ensure you have the following installed before running:
+Because I don't use an API call, you need to make sure you have pyzmq to use beautifulsoup4:
 
 ```bash
 pip install pyzmq requests beautifulsoup4
