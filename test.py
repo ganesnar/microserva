@@ -2,7 +2,6 @@ import zmq
 import csv
 
 def request_imdb_link(movie_name, year):
-    """Sends a request to the IMDb lookup microservice and receives the IMDb link."""
     context = zmq.Context()
     socket = context.socket(zmq.REQ)
     socket.connect("tcp://localhost:5555")
